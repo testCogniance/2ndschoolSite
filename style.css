@@ -2,8 +2,14 @@ body {
 
 }
 
-h1, h2, h3 {
+h1 {
+color: #333333;
+font: 14px/1.5.em Arial;
+}
+
+h2, h3 {
 
 }
 
 
+.form input {
