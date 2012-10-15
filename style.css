@@ -1,5 +1,5 @@
 body {
-
+background: url("/images/bg.png") no-repeat scroll 0 0 #FFFFFF;
 }
 
 h1 {
@@ -11,5 +11,3 @@ h2, h3 {
 
 }
 
-
-.form input {
