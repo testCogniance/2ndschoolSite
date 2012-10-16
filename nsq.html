@@ -1,0 +1,40 @@
+﻿<html>
+<head>
+<title>FAQ</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+</head>
+ 
+<body>
+<?php
+$name = $_POST['name']; // собираем введенные данные и записываемв переменные
+$email = $_POST['email'];
+$mes = $_POST['mes'];
+$text .= "Name: $name \n"; 
+$text .= "email: $email \n"; 
+$text .= "Question: $mes \n";
+  if (!empty($name) && !empty($email) && !empty($mes)) //if not empty 
+    {
+    $file = fopen ("faq.txt", "a+"); //rewrite faq.txt 
+    fwrite ($file,$text); // 
+    fclose ($file); // 
+    }
+?>
+<form action="vopros.php" method="post">
+<p>Name
+<input name="name" type="text" class="lnews_data" size="30">
+</p>
+<p>e-mail
+<input name="email" type="text" class="lnews_data" size="40">
+</p>
+<p>Question
+<textarea name="mes" cols="50" rows="5" class="lnews_data"></textarea>
+</p>
+<p>
+<label>
+<input type="submit" name="submit" id="submit" value="Send">
+</label>
+</p>
+</form>
+<pre><? include ("faq.txt")?></pre>
+</body>
+</html>
