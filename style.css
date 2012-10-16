@@ -10,4 +10,18 @@ font: 14px/1.5.em Arial;
 h2, h3 {
 
 }
+table {
+margin-left: 20%;
+margin-top: 5%;
 
+}
+td {
+height: 200px; 
+width: 500px;
+}
+img {
+float:left;
+margin: 7px 7px 7px 0;
+height: 174px; 
+width: 143px;
+}
