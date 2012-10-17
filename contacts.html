@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/style_contact.css">
+	<title>	2nd Level Site</title>
+</head>
+
+<body>
+	<!-- Navbar -->
+	<ul class="navbar">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Topics</a></li>
+		<li><a href="#">People</a></li>
+		<li><a href="#">Questions</a></li>
+		<li><a href="#">Contuct Us</a></li>
+	</ul>
+	<!-- Fields -->
+	<form action="contact.php" method="get">
+		<ul>
+			<li>
+			    <label for="name"> Please enter your name: 
+			    	<span class="form_required" title="This text is required.">*</span>
+			    </label>
+			    <input id="name" type="text" name="cf_name" placeholder="name" />
+			</li>
+		
+			<li>
+				<label for ="email">Please enter your email:
+					<span class="form_required" title="This text is required.">*</span>
+				</label>
+				<input id="email" type="text" name="cf_email" placeholder="e-mail"/>
+			</li>
+
+			<li>
+				<label for="message">Message:
+					<span class="form_required" title="This text is required.">*</span>
+				</label>
+				<textarea id="message"name="cf_message"></textarea>
+			</li>
+
+			<li>
+				<input type="submit"/>
+				<input type="reset" value="Clear"/>
+			</li>
+		</uli>
+	</form>
+
+
+</body>
+</html>
