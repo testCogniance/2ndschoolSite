@@ -1,5 +1,5 @@
 body {
-background: url("/2ndschoolSite/images/bg.png") no-repeat scroll 0 0 #FFFFFF;
+background: url("2ndschoolSite/images/bg.png") no-repeat scroll 0 0 #FFFFFF;
 }
 
 h1 {
@@ -50,7 +50,16 @@ h2, h3 {
 
 #tabs a:hover {
 	text-decoration: none;
-	color: #FFFF00;
+	color: black;
+}
+div.entry {
+	width: 50%;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+.entry img {
+	float: left;
+	margin: 0px 5px 10px 5px;
 }
 
 
