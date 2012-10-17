@@ -1,5 +1,5 @@
 body {
-background: url("/images/bg.png") no-repeat scroll 0 0 #FFFFFF;
+background: url("/2ndschoolSite/images/bg.png") no-repeat scroll 0 0 #FFFFFF;
 }
 
 h1 {
@@ -14,15 +14,17 @@ h2, h3 {
 
 
 #tabs {
-	float: right;
-	width: 300px;
+	float: center;
+	width: 1000px;
+	align: justify;
 	height: 90px;
 	margin: 0 auto;
 	padding: 0;
 }
 
 #tabs ul {
-	float: right;
+	align: justify;	
+	<!--float: right;-->
 	margin: 0;
 	padding: 0px 0px 0px 0px;
 	list-style: none;
@@ -42,13 +44,13 @@ h2, h3 {
 	text-align: center;
 	font-size: 20px;
 	font-weight: 300;
-	color: #BBEE77;
+	color: #0000FF;
 	
 }
 
 #tabs a:hover {
 	text-decoration: none;
-	color: #234600;
+	color: #FFFF00;
 }
 
 
