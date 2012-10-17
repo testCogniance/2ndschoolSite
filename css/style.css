@@ -1,0 +1,42 @@
+/*
+**	Global Styles
+*/
+*
+
+		body {
+			background: #ccc;
+		}
+		
+		.content {
+			width: 800px;
+			margin: 0 auto;
+		}	
+		
+		.text {
+			border-radius: 4px;
+			width: 300px;
+			border: 1px solid #b4b4b4;
+			padding-left: 5px;
+			height: 20px;
+			line-height: 20px;
+		}
+		
+		textarea.text {
+			height: auto;
+			resize: none
+		}
+		
+		p span.info {
+			display: inline-block;
+			min-width: 76px;
+			vertical-align: top;
+		}
+		
+		form {
+			width: 390px;
+		}
+		#submit {
+			float:right;
+		}
+
+	
