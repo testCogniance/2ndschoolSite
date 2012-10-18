@@ -14,7 +14,7 @@ h2, h3 {
 
 
 #tabs {
-	<!--float: center;-->
+	float: center;
 	width: 1000px;
 	align: justify;
 	height: 90px;
@@ -24,7 +24,7 @@ h2, h3 {
 
 #tabs ul {
 	align: justify;	
-	<!--float: right;-->
+	float: right;
 	margin: 0;
 	padding: 0px 0px 0px 0px;
 	list-style: none;
