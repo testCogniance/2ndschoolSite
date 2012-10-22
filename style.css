@@ -124,8 +124,8 @@ width: 143px;
 
 div.footer {
         width: auto;
-        height: 150px;
-        background-color:blue;  
+        height: 15px;
+        background-color:#CCFFFF;  
         position: absolute; 
         bottom: 0px;
 }
