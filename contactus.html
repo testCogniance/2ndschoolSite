@@ -1,30 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Contuct us</title>
+<link href ="style.css" type="text/css" rel="stylesheet"/>
+<title>Contact us</title>
 </head>
 
 <body>
-<img src="img/bug.jpg" width="150" height="150">
+<div id = "tabs">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="topics.html">Topics</a></li>
+<li><a href="people.html">People</a></li>
+<li><a href="contactus.html">Contact us</a></li>
+<li><a href="questions.html">Questions</a></li>
+<li> </li>
+<li> </li>
+</ul>
+</div>
 <hr>
 
-
-<form action="button.html" method="get">
-First name: <input type="text" name="firstname"><br>
-Last name: <input type="text" name="lastname">
 <br>
-<input type="radio" name="sex" value="male">Male
-<input type="radio" name="sex" value="female">Female
-
+<center>
+<form method=post action="mailto:test.cogniance@gmail.com" enctype="text/plain">
+Enter your name:
 <br>
-Your e-mail: <input type="text" name="email" size="40" maxlength="50">
+<input type="text" name="username" value=""> 
 <br>
-Your comment:<textarea name="comment" rows="4" cols="20" value="commentText"></textarea>
+<!--
+<input type="text" name="email" value="Enter your email"> 
 <br>
-<input type="submit" value="Submit">
-<button type="button" onclick="window.open('test.html','','width=400,height=200')">Click Me=)</button>
-
+-->
+Your comment <br>
+<textarea name="comments" rows="10" wrap="hard">
+</textarea>
+<br>
+<input type="submit" value="Send email">
+<input type="reset" value="Clear">
 </form>
+</center>
+
 
 
 </body>
