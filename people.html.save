@@ -5,11 +5,9 @@ People
 </title>
 <head>
 <link href ="style.css" type="text/css" rel="stylesheet"/>
-<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 
 <body>
-
 <div id = "tabs">
 <ul>
 <li><a href="index.html">Home</a></li>
@@ -17,16 +15,18 @@ People
 <li><a href="people.html">People</a></li>
 <li><a href="contactus.html">Contact us</a></li>
 <li><a href="questions.html">Questions</a></li>
+<li> </li>
+<li> </li>
+</ul>
 </div>
-
 <hr>
 <div class="people">
 <h1>People</h1>
-<h2 align=center>Mentors<h2>
+<<h2 align=center>Mentors<h2>
 <table id="table_people"  border="0"  cellpadding=>
 
  <tr>
-  <td><img src ="images/image_people/aparmon.jpg" align="top"><ul>
+  <td><a href ="" ><img src ="images/image_people/aparmon.jpg" align="top"><ul>
 	<li>
 		<a href="#" title="">Andrew Parmon</a>
 		<ul>
@@ -38,8 +38,8 @@ People
 		</ul>
 	</li>
 	
-</ul></td>
-  <td><img src ="images/image_people/mkriuchko.jpg"><ul>
+</ul></a></td>
+  <td><a href ="" ><img src ="images/image_people/mkriuchko.jpg"><ul>
 	<li>
 		<a href="#" title="">Maksim Kriuchko</a>
 		<ul>
@@ -52,11 +52,11 @@ People
 		</ul>
 	</li>
 	
-</ul></td>
+</ul></a></td>
  </tr>
  
  <tr>
-  <td><img src ="images/image_people/knemesh.jpg"><ul>
+  <td><a href ="" ><img src ="images/image_people/knemesh.jpg"><ul>
 	<li>
 		<a href="#" title="">Katia Nemesh</a>
 		<ul>
@@ -69,8 +69,8 @@ People
 		</ul>
 	</li>
 	
-</ul></td>
-  <td><img src ="images/image_people/vkavun.jpg"><ul>
+</ul></a></td>
+  <td><a href ="" ><img src ="images/image_people/vkavun.jpg"><ul>
 	<li>
 		<a href="#" title="">Volodymyr Kavun</a>
 		<ul>
@@ -84,14 +84,14 @@ People
 		</ul>
 	</li>
 	
-</ul></td>
+</ul></a></td>
  </tr>
 </table>
 <h2 align=center>Students</h2>
 <table id="table_people"  border="0"  cellpadding=>
 
  <tr>
-  <td><img src ="images/image_people/aomelchenko.jpg"><ul>
+  <td><a href ="" ><img src ="images/image_people/aomelchenko.jpg"><ul>
 	<li>
 		<a href="#" title="">Anatoliy Omelchenko</a>
 		<ul>
@@ -104,8 +104,8 @@ People
 		</ul>
 	</li>
 	
-</ul></td>
-  <td><img src ="images/image_people/dprotsenko.jpg"><ul>
+</ul></a></td>
+  <td><a href ="" ><img src ="images/image_people/dprotsenko.jpg"><ul>
 	<li>
 		<a href="#" title="">Dmitriy Protsenko</a>
 		<ul>
@@ -116,11 +116,11 @@ People
 		</ul>
 	</li>
 	
-</ul></td>
+</ul></a></td>
  </tr>
  
   <tr>
-  <td><img src ="images/image_people/ibachynskaya.jpg"><ul>
+  <td><a href ="" ><img src ="images/image_people/ibachynskaya.jpg"><ul>
 	<li>
 		<a href="#" title="">Ilona Bachynskaya</a>
 		<ul>
@@ -132,8 +132,8 @@ People
 		</ul>
 	</li>
 	
-</ul></td>
-  <td><img src ="images/image_people/ishumeyko.jpg"><ul>
+</ul></a></td>
+  <td><a href ="" ><img src ="images/image_people/ishumeyko.jpg"><ul>
 	<li>
 		<a href="#" title="">Igor Shumeyko</a>
 		<ul>
@@ -146,11 +146,11 @@ People
 		</ul>
 	</li>
 	
-</ul></td>
+</ul></a></td>
  </tr>
  
   <tr>
-  <td><img src ="images/image_people/isitsinska.jpg"><ul>
+  <td><a href ="" ><img src ="images/image_people/isitsinska.jpg"><ul>
 	<li>
 		<a href="#" title="">Iana Sitsinska</a>
 		<ul>
@@ -162,8 +162,8 @@ People
 		</ul>
 	</li>
 	
-</ul></td>
-  <td><img src ="images/image_people/kchorna.jpg"><ul>
+</ul></a></td>
+  <td><a href ="" ><img src ="images/image_people/kchorna.jpg"><ul>
 	<li>
 		<a href="#" title="">Kateryna Chorna</a>
 		<ul>
@@ -175,11 +175,11 @@ People
 		</ul>
 	</li>
 	
-</ul></td>
+</ul></a></td>
  </tr>
 
 <tr>
-  <td><img src ="images/image_people/jshevchenko.jpg"><ul>
+  <td><a href ="" ><img src ="images/image_people/jshevchenko.jpg"><ul>
 	<li>
 		<a href="#" title="">Julia Shevchenko</a>
 		<ul>
@@ -192,8 +192,8 @@ People
 		</ul>
 	</li>
 	
-</ul></td>
-  <td><img src ="images/image_people/knaumova.jpg"><ul>
+</ul></a></td>
+  <td><a href ="" ><img src ="images/image_people/knaumova.jpg"><ul>
 	<li>
 		<a href="#" title="">Kristina Naumova</a>
 		<ul>
@@ -205,11 +205,11 @@ People
 		</ul>
 	</li>
 	
-</ul></td>
+</ul></a></td>
  </tr>
 
 <tr>
-  <td><img src ="images/image_people/ktretiak.jpg"><ul>
+  <td><a href ="" ><img src ="images/image_people/ktretiak.jpg"><ul>
 	<li>
 		<a href="#" title="">Kateryna Tretiaka</a>
 		<ul>
@@ -221,8 +221,8 @@ People
 		</ul>
 	</li>
 	
-</ul></td>
-  <td><img src ="images/image_people/nsemidotska.jpg"><ul>
+</ul></a></td>
+  <td><a href ="" ><img src ="images/image_people/nsemidotska.jpg"><ul>
 	<li>
 		<a href="#" title="">Nataliia Semidotska</a>
 		<ul>
@@ -235,11 +235,11 @@ People
 		</ul>
 	</li>
 	
-</ul></td>
+</ul></a></td>
  </tr>
 
 <tr>
-  <td><img src ="images/image_people/tkazydub.jpg"><ul>
+  <td><a href ="" ><img src ="images/image_people/tkazydub.jpg"><ul>
 	<li>
 		<a href="#" title="">Taras Kazydub</a>
 		<ul>
@@ -252,8 +252,8 @@ People
 		</ul>
 	</li>
 	
-</ul></td>
-  <td><img src ="images/image_people/zvasilevskaya.jpg"><ul>
+</ul></a></td>
+  <td><a href ="" ><img src ="images/image_people/zvasilevskaya.jpg"><ul>
 	<li>
 		<a href="#" title="">Zhanna Vasilevskaya</a>
 		<ul>
@@ -265,11 +265,11 @@ People
 		</ul>
 	</li>
 	
-</ul></td>
+</ul></a></td>
 </tr>
 
 <tr>
-  <td><img src ="images/image_people/jvolkova.jpg"><ul>
+  <td><a href ="" ><img src ="images/image_people/jvolkova.jpg"><ul>
         <li>
                 <a href="#" title="">Julia Volkova</a>
                 <ul>
@@ -281,8 +281,8 @@ People
                 </ul>
         </li>
 
-</ul></td>
-  <td><img src ="images/image_people/mtsivyna.jpg"><ul>
+</ul></a></td>
+  <td><a href ="" ><img src ="images/image_people/mtsivyna.jpg"><ul>
         <li>
                 <a href="#" title="">Maksym Tsivyna</a>
                 <ul>
@@ -294,11 +294,11 @@ People
                 </ul>
         </li>
 
-</ul></td>
+</ul></a></td>
  </tr>
 
 <tr>
-  <td><img src ="images/image_people/ratamanchuk.jpg"><ul>
+  <td><a href ="" ><img src ="images/image_people/tkazydub.jpg"><ul>
         <li>
                 <a href="#" title="">Roman Atamanchuk</a>
                 <ul>
@@ -310,8 +310,8 @@ People
                 </ul>
         </li>
 
-</ul></td>
-  <td><img src ="images/image_people/skostiuchenko.jpg"><ul>
+</ul></a></td>
+  <td><a href ="" ><img src ="images/image_people/skostiuchenko.jpg"><ul>
         <li>
                 <a href="#" title="">Sofiia Kostyuchenko</a>
                 <ul>
@@ -323,13 +323,13 @@ People
                 </ul>
         </li>
 
-</ul></td>
+</ul></a></td>
  </tr>
 </table>
 </div>
 <hr>
-<div class="footer" align=center>
-&#169 2012 2ndSchoolSite
+<div class="footer">
+©2012 2ndSchoolSite
 </div>
 
 </body>
