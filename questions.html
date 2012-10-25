@@ -79,27 +79,52 @@
 				<textarea id="textarea" rows=7 cols=40 name="question" value="Enter your question" onfocus="if (this.value == 'Enter your question') {this.value = '';}" onblur="if (this.value == '') {this.value ='Enter your question';}">Enter your question</textarea>
 				<br>
 				<br>
-				<button style="width:100px;" class="btn" type="button" onclick="CreateDivElement();">Ask</button>
+				<button style="width:100px;" class="btn" type="button" onclick="CreateDivElement();" onclick="return validateForm();" method="post">Ask</button>
 			</form>				
 		</div>
 		
+			
 		<script type="text/javascript" language="javascript">  
 			function CreateDivElement() { 
-			var divElement1 = document.createElement("div"); 
-			divElement1.className = "row"; 		
-			var divElement = document.createElement("div");   
-			divElement.className = "well span8";   
-			var h5Element = document.createElement("h5");
-			h5Element.innerHTML = document.getElementById("username").value;
-			var subjectElement = document.createElement("h5");
-			subjectElement.innerHTML = document.getElementById("subject").value;
-			var pElement = document.createElement("p");
-			pElement.innerHTML = document.getElementById("textarea").value; 
-			document.getElementById("messages").appendChild(divElement1);
-			divElement1.appendChild(divElement);
-			divElement.appendChild(h5Element);  
-			divElement.appendChild(subjectElement); 
-			divElement.appendChild(pElement);
+			var name=document.getElementById("username").value;
+			var email=document.getElementById("email").value;
+			var question=document.getElementById("textarea").value;
+			if (name==null || name=="")
+			  {
+			  alert("Fill in your name!");
+			  return false;
+			  }
+			  else {
+					if (email==null || email=="") 
+						{
+							alert("Fill in your email!");
+							return false;
+							}
+					else {
+						if (question=="Enter your question" || question=="") {
+							alert("Enter your question!");
+							return false;
+						}
+						else {						
+							var divElement1 = document.createElement("div"); 
+							divElement1.className = "row"; 		
+							var divElement = document.createElement("div");   
+							divElement.className = "well span8";   
+							var h5Element = document.createElement("h5");
+							h5Element.innerHTML = document.getElementById("username").value;
+							var subjectElement = document.createElement("h5");
+							subjectElement.innerHTML = document.getElementById("subject").value;
+							var pElement = document.createElement("p");
+							pElement.innerHTML = document.getElementById("textarea").value; 
+							document.getElementById("messages").appendChild(divElement1);
+							divElement1.appendChild(divElement);
+							divElement.appendChild(h5Element);  
+							divElement.appendChild(subjectElement); 
+							divElement.appendChild(pElement);
+						}
+					}
+					
+			  }
 			}   
 		</script> 
 	</body>

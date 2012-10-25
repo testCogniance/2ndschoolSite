@@ -61,16 +61,27 @@ div.entry {
 	float: left;
 	margin: 0px 5px 10px 5px;
 }
-/* Begin of the style just for People.html */
+/* Begin of the style just for People.html) */
 div.people {
- 	width: 70%;
+ 	width: 1300px;
         margin: auto;
+		font-family: "Times New Roman";
+		font-size: 12;
+		
 }
+
+
 
 div.people a{
 text-decoration: none;
-color: black;
+color: #8B8989;
+
 }
+div.people a:hover{
+color: black;
+letter-spacing:1px;
+}
+
 
 
 div.people ul {
@@ -120,13 +131,20 @@ height: 174px;
 width: 143px;
 }
 
-/* End of the style just for People.html */
+
 
 div.footer {
         width: auto;
+<<<<<<< HEAD
         height: 20px;
         background-color:#E1F5FA;  
         position: absolute; 
+=======
+        height: 15px;
+        background-color:#CCFFFF;  
+       
+>>>>>>> 174d5ba6ec010ea5d3af42d0215cfe2fd61fe44a
         bottom: 0px;
 }
+/* End of the style just for People.html */
 
