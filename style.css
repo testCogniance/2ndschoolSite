@@ -135,15 +135,9 @@ width: 143px;
 
 div.footer {
         width: auto;
-<<<<<<< HEAD
         height: 20px;
         background-color:#E1F5FA;  
         position: absolute; 
-=======
-        height: 15px;
-        background-color:#CCFFFF;  
-       
->>>>>>> 174d5ba6ec010ea5d3af42d0215cfe2fd61fe44a
         bottom: 0px;
 }
 /* End of the style just for People.html */
