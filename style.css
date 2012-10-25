@@ -138,6 +138,7 @@ div.footer {
         height: 50px;
         background-color:#E1F5FA;  
         bottom: 0px;
+	vertical-align:middle;
 }
 /* End of the style just for People.html */
 
