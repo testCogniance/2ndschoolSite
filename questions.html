@@ -63,20 +63,24 @@
 					<select id="subject">
 						<option>Git</option>
 						<option>Jmeter</option>
+            <option>SSH</option>
+            <option>Rergexp</option>
+            <option>BeanShell</option>
 						<option>Xpath</option>
+            <option>Cron</option>
 						<option>Your subject</option>
 					</select>
 				</p>
-				Enter your name:
+				Name:
 				<br>
 				<input type="text" id="username">
 				<br>
-				Enter your email:
+				Email:
 				<br>
 				<input type="text" id="email">
 				<br>
-				Enter your question<br>
-				<textarea id="textarea" rows=7 cols=40 name="question" value="Enter your question" onfocus="if (this.value == 'Enter your question') {this.value = '';}" onblur="if (this.value == '') {this.value ='Enter your question';}">Enter your question</textarea>
+				Your question:<br>
+				<textarea id="textarea" rows=7 cols=40 name="question" value="Your question" onfocus="if (this.value == 'Your question') {this.value = '';}" onblur="if (this.value == '') {this.value ='Your question';}">Enter your question here</textarea>
 				<br>
 				<br>
 				<button style="width:100px;" class="btn" type="button" onclick="CreateDivElement();" onclick="return validateForm();" method="post">Ask</button>
@@ -91,18 +95,24 @@
 			var question=document.getElementById("textarea").value;
 			if (name==null || name=="")
 			  {
-			  alert("Fill in your name!");
+			  alert("Please, fill in your name!");
 			  return false;
 			  }
 			  else {
 					if (email==null || email=="") 
 						{
-							alert("Fill in your email!");
+							alert("Please, fill in your email!");
 							return false;
 							}
 					else {
+            var reg=/[0-9a-z_]+@[0-9a-z_]+\.[a-z]{2,5}/i;
+            var check=reg.test(email);
+            if (check==false) {
+              alert("Entered E-mail address is incorrect!");
+              return false;
+              }
 						if (question=="Enter your question" || question=="") {
-							alert("Enter your question!");
+							alert("Please, enter your question!");
 							return false;
 						}
 						else {						
