@@ -49,7 +49,7 @@
 			<li><a href="topics.html">Topics</a></li>
 			<li><a href="people.html">People</a></li>
 			<li><a href="contactus.html">Contact us</a></li>
-			<li><a href="questions.html">Questions</a></li>
+			<li><a href="Questions.php">Questions</a></li>
 		</div>
 			
 		<div id="content">
