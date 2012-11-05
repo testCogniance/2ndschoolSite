@@ -249,7 +249,37 @@
 			#right {
 			 width:200px;
 			 float:right;
-			}						
+			}	
+
+			#tabs {
+			height: 90px;
+			margin: 0 auto;
+			padding: 0;
+			width: 1000px;
+			}   
+   
+			#tabs ul {
+			line-height: normal;
+			list-style: none outside none;
+			padding: 0;
+		   }
+   
+		   #tabs li {
+			float: left;
+		   }
+		   
+		   #tabs a {
+			color: #0000FF;
+			display: block;
+			font-size: 20px;
+			font-weight: 300;
+			margin-right: 1px;
+			padding: 10px 0 15px 30px;
+			text-align: center;
+			text-decoration: none;
+			text-transform: lowercase;
+		   }
+			
 		</style>	
 	
 
